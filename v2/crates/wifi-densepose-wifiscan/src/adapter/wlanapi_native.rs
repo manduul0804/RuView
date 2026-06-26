@@ -32,9 +32,8 @@
 //! back is released with `WlanFreeMemory` before return (including on the
 //! error paths).
 
-use std::time::Instant;
 
-use crate::domain::bssid::{BandType, BssidId, BssidObservation, RadioType};
+use crate::domain::bssid::{BandType, BssidObservation, RadioType};
 use crate::error::WifiScanError;
 
 /// Map a center frequency in kHz to an 802.11 channel number.
